@@ -1,0 +1,37 @@
+{
+  "name": "@decent-bet/solido-block-date-converter",
+  "version": "1.0.0",
+  "description": "Converts Vechain Block number to date",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decent-bet/solido-block-date-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decent-bet/solido-block-date-converter/issues"
+  },
+  "homepage": "https://github.com/decent-bet/solido-block-date-converter#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.3.12",
+    "@types/node": "^11.12.0",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "eslint": "^5.15.3",
+    "jasmine": "^3.4.0",
+    "jasmine-ts": "^0.3.0",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
